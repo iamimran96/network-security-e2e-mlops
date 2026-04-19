@@ -1,0 +1,59 @@
+[ 2026-04-19 14:36:25,401 ] 13 root - INFO - Starting Data Ingestion
+[ 2026-04-19 14:36:25,401 ] 16 root - INFO - Initiating the Data Ingestion
+[ 2026-04-19 14:36:25,401 ] 94 root - INFO - Starting data ingestion
+[ 2026-04-19 14:36:25,401 ] 39 root - INFO - Exporting data from Mongodb
+[ 2026-04-19 14:36:27,301 ] 44 root - INFO - Dataframe shape : (11055, 32)
+[ 2026-04-19 14:36:27,305 ] 48 root - INFO - Successfully exported data from Mongodb
+[ 2026-04-19 14:36:27,305 ] 61 root - INFO - Exporting data to feature store
+[ 2026-04-19 14:36:27,334 ] 65 root - INFO - Data successfully exported to feature store
+[ 2026-04-19 14:36:27,336 ] 79 root - INFO - Performed train test split
+[ 2026-04-19 14:36:27,336 ] 84 root - INFO - Exporting train data
+[ 2026-04-19 14:36:27,358 ] 86 root - INFO - Exporting test data
+[ 2026-04-19 14:36:27,364 ] 102 root - INFO - Data ingestion completed successfully
+[ 2026-04-19 14:36:27,364 ] 19 root - INFO - Data Ingestion Completed
+[ 2026-04-19 14:36:27,366 ] 23 root - INFO - Initiate the Data Validation
+[ 2026-04-19 14:36:27,373 ] 32 root - INFO - Required num3ber of columns: 31
+[ 2026-04-19 14:36:27,373 ] 33 root - INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='object')
+[ 2026-04-19 14:36:27,373 ] 32 root - INFO - Required num3ber of columns: 31
+[ 2026-04-19 14:36:27,373 ] 33 root - INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='object')
+[ 2026-04-19 14:36:27,445 ] 25 root - INFO - Data Validation Completed
+[ 2026-04-19 14:36:27,445 ] 29 root - INFO - Initiate the Data Transformation
+[ 2026-04-19 14:36:27,445 ] 59 root - INFO - Entered the initiate_data_transformation method of DataTransformation class
+[ 2026-04-19 14:36:27,445 ] 61 root - INFO - Reading the validated train and test file
+[ 2026-04-19 14:36:27,452 ] 64 root - INFO - Splitting input and target feature from train and test dataframe
+[ 2026-04-19 14:36:27,453 ] 47 root - INFO - Entered the get_data_transformer_object method of DataTransformation class
+[ 2026-04-19 14:36:27,453 ] 49 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-04-19 14:36:27,456 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-04-19 14:36:27,457 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-04-19 14:36:27,457 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-04-19 14:36:27,458 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-04-19 14:36:27,458 ] 31 root - INFO - Data Transformation Completed
+[ 2026-04-19 14:36:27,458 ] 34 root - INFO - Model training initiated
+[ 2026-04-19 14:36:27,458 ] 33 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[ 2026-04-19 14:37:52,209 ] 8 root - INFO - Entered the get_classification_metric function
+[ 2026-04-19 14:37:52,247 ] 8 root - INFO - Entered the get_classification_metric function
+[ 2026-04-19 14:37:53,945 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2026-04-19 14:37:53,947 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-04-19 14:37:53,958 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-04-19 14:37:53,958 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-04-19 14:37:53,975 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-04-19 14:37:53,975 ] 124 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/04_19_2026_14_36_24/model_trainer/trained_model/phisingData.csv', trained_metric_artifact=ClassificationMetricArtifact(f1_score=0.9922622683771126, precision_score=0.9904471544715447, recall_score=0.9940840473276213), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9696969696969697, precision_score=0.9704708699122107, recall_score=0.9689243027888447))
+[ 2026-04-19 14:37:53,977 ] 38 root - INFO - Model training completed

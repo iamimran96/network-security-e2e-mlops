@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/muhammadimransaeed/MLOPS/network-security/mlruns/0/e7a530697dfd46b98d8dda1d6d54c546/artifacts
+end_time: 1776602273945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e7a530697dfd46b98d8dda1d6d54c546
+run_name: agreeable-toad-551
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776602272327
+status: 3
+tags: []
+user_id: muhammadimransaeed

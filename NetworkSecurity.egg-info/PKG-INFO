@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: NetworkSecurity
+Version: 0.1.0
+Summary: A package for network security tools and utilities
+Author: Muhammad Imran Saeed
+Author-email: iamimransaeed1996@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
+Requires-Dist: pymongo[srv]
+Requires-Dist: scikit-learn
+Requires-Dist: mlflow
+Requires-Dist: pyaml
+Requires-Dist: dagshub
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-multipart
+Requires-Dist: scipy
+Requires-Dist: pyaml
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

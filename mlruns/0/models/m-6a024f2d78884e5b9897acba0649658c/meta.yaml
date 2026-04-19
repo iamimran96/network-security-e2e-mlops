@@ -1,0 +1,10 @@
+artifact_location: file:///Users/muhammadimransaeed/MLOPS/network-security/mlruns/0/models/m-6a024f2d78884e5b9897acba0649658c/artifacts
+creation_timestamp: 1776602272339
+experiment_id: '0'
+last_updated_timestamp: 1776602273942
+model_id: m-6a024f2d78884e5b9897acba0649658c
+model_type: null
+name: model
+source_run_id: e7a530697dfd46b98d8dda1d6d54c546
+status: 2
+status_message: null
